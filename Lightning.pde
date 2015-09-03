@@ -1,3 +1,4 @@
+
 int startX = (int)(Math.random()*250);
 int startY = 0;
 int endX = (int)(Math.random()*250);
@@ -43,9 +44,16 @@ void draw()
 	//house
 	fill(170,126,50);
 	rect(120,240,70,70);
-	fill(255,108,72);
+	fill(230,85,50);
 	triangle(100,240,155,200,210,240);
 	rect(175,200,5,30);
+
+	//windows
+	fill(0);
+	rect(130,255,15,15);
+	rect(165,255,15,15);
+	fill(102,51,0);
+	rect(145, 280, 20,30);
 
 
 }
