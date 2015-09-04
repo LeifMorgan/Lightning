@@ -60,7 +60,7 @@ public void draw()
 	//house
 	fill(170,126,50);
 	rect(120,240,70,70);
-	fill(230,85,50);
+	fill(220,75,40);
 	triangle(100,240,155,200,210,240);
 	rect(175,200,5,30);
 
@@ -84,7 +84,11 @@ public void mouseMoved()
 
 	
 }
-
+public void mousePressed()
+{
+	fill(255,255,255,60);
+	rect(0,0,300,300);
+}
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "Lightning" };
     if (passedArgs != null) {
